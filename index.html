@@ -108,12 +108,17 @@
                         </div>
                         <h3 class="lh-base mb-0">of working experience as a web designer & web developer</h3>
                     </div>
-                    <pre class="mb-4 no-wrap">Welcome to my page! I'm a passionate full stack programmer with two years of experience in the world of web development. I've had the privilege of collaborating with various companies, including restaurants and other commercial entities, to create engaging and functional digital experiences.
-                        My passion for design and programming has guided me through numerous projects, where I've had the opportunity to put my technical and creative skills into practice. From elegant and intuitive design to implementing complex functionalities, I always strive to deliver tailor-made solutions that meet the unique needs of my clients.
-                        I'm a fervent advocate for agile development and teamwork, firmly believing that collaboration is essential for the success of any project. My ability to communicate effectively and work in synergy with colleagues and clients allows me to translate ideas into tangible digital realities of value.
-                        I'm excited to continue growing professionally and taking on new challenges that allow me to expand my skills and contribute meaningfully to innovative projects. If you're looking for a passionate, creative, and results-driven programmer, I'm here to help you turn your ideas into extraordinary digital realities.
-                    </pre>
-                </div>
+                    <div class="mb-4">
+                        <pre class="mb-4 no-wrap">Welcome to my page! I'm a passionate full stack programmer with two years of experience in the world of web development.</pre>
+                        <pre class="mb-4 no-wrap collapse" id="longText">
+                            I've had the privilege of collaborating with various companies, including restaurants and other commercial entities, to create engaging and functional digital experiences.
+                            My passion for design and programming has guided me through numerous projects, where I've had the opportunity to put my technical and creative skills into practice. From elegant and intuitive design to implementing complex functionalities, I always strive to deliver tailor-made solutions that meet the unique needs of my clients.
+                            I'm a fervent advocate for agile development and teamwork, firmly believing that collaboration is essential for the success of any project. My ability to communicate effectively and work in synergy with colleagues and clients allows me to translate ideas into tangible digital realities of value.
+                            I'm excited to continue growing professionally and taking on new challenges that allow me to expand my skills and contribute meaningfully to innovative projects. If you're looking for a passionate, creative, and results-driven programmer, I'm here to help you turn your ideas into extraordinary digital realities.
+                        </pre>
+                    </div>
+                    <button class="btn btn-primary" type="button" id="readMoreBtn">Read more</button>
+                </div>    
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="row g-3 mb-4">
                         <div class="col-sm-6">
@@ -322,9 +327,6 @@
                 <div class="col-lg-6">
                     <h1 class="display-5 mb-0">My Services</h1>
                 </div>
-                <div class="col-lg-6 text-lg-end">
-                    <a class="btn btn-primary py-3 px-5" href="">Hire Me</a>
-                </div>
             </div>
             <div class="row g-4">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -390,8 +392,12 @@
                 <div class="col-lg-6 text-lg-end">
                     <ul class="list-inline mx-n3 mb-0" id="portfolio-flters">
                         <li class="mx-3 active" data-filter="*">All Projects</li>
-                        <li class="mx-3" data-filter=".first">UI/UX Design</li>
-                        <li class="mx-3" data-filter=".second">Graphic Design</li>
+                        <li class="mx-3" data-filter=".second">Bootstrap</li>
+                        <li class="mx-3" data-filter=".first">JavaScript</li>
+                        <li class="mx-3" data-filter=".first">Vue</li>
+                        <li class="mx-3" data-filter=".first">PhP</li>
+                        <li class="mx-3" data-filter=".second">Laravel</li>
+                        <li class="mx-3" data-filter=".first">Pyton</li>
                     </ul>
                 </div>
             </div>
@@ -457,70 +463,70 @@
 
     <!-- Contact Start -->
     <div class="container-xxl mt-5 shadow rounded" id="contact">
-        <div class="container py-5">
-            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="col-lg-6 ">
-                    <h1 class="display-5 mb-0">Let's Work Together</h1>
-                </div>
-                <div class="col-lg-6 text-lg-end">
-                    <a class="btn btn-primary py-3 px-5" href="">Say Hello</a>
-                </div>
-            </div>
-            <div class="row g-5">
-                <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <p class="mb-2">My office:</p>
-                    <h3 class="fw-bold">123 Street, New York, USA</h3>
-                    <hr class="w-100">
-                    <p class="mb-2">Call me:</p>
-                    <h3 class="fw-bold">+012 345 6789</h3>
-                    <hr class="w-100">
-                    <p class="mb-2">Mail me:</p>
-                    <h3 class="fw-bold">info@example.com</h3>
-                    <hr class="w-100">
-                    <p class="mb-2">Follow me:</p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+            <div class="container py-5">
+                <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-lg-6 ">
+                        <h1 class="display-5 mb-0">Let's Work Together</h1>
+                    </div>
+                    <div class="col-lg-6 text-lg-end">
+                        <a class="btn btn-primary py-3 px-5" href="">Say Hello</a>
                     </div>
                 </div>
-                <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
-                    <form>
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                    <label for="name">Your Name</label>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                    <label for="email">Your Email</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                    <label for="subject">Subject</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
-                                    <label for="message">Message</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary py-3 px-5" type="submit">Send Message</button>
-                            </div>
+                <div class="row g-5">
+                    <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <p class="mb-2">My office:</p>
+                        <h3 class="fw-bold">123 Street, New York, USA</h3>
+                        <hr class="w-100">
+                        <p class="mb-2">Call me:</p>
+                        <h3 class="fw-bold">+012 345 6789</h3>
+                        <hr class="w-100">
+                        <p class="mb-2">Mail me:</p>
+                        <h3 class="fw-bold">info@example.com</h3>
+                        <hr class="w-100">
+                        <p class="mb-2">Follow me:</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-linkedin-in"></i></a>
                         </div>
-                    </form>
+                    </div>
+                    <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                        <label for="name">Your Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                        <label for="email">Your Email</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                        <label for="subject">Subject</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                                        <label for="message">Message</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary py-3 px-5" type="submit">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
     </div>
     <!-- Contact End -->
 

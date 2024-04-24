@@ -121,6 +121,18 @@
         loop: true,
     });
 
+    $(document).ready(function() {
+        // Function to toggle text and button text
+        function toggleText() {
+            $('#shortText, #longText').toggleClass('collapse');
+            var buttonText = $('#readMoreBtn').text();
+            $('#readMoreBtn').text(buttonText === 'Read more' ? 'Read less' : 'Read more');
+        }
     
+        // Toggle text and button text on button click
+        $('#readMoreBtn').click(function() {
+            toggleText();
+        });
+    });
 })(jQuery);
 
