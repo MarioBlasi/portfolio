@@ -134,5 +134,5 @@
             toggleText();
         });
     });
-})(jQuery);
 
+})(jQuery);

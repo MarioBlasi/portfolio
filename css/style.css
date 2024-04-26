@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
     --primary: #18bf7c;
-    --secondary: #FFC448;
+    --secondary: #1c12ac;
     --light: #FAFAFB;
     --dark: #12141D;
     --see:grey;
@@ -163,7 +163,15 @@
 #skill .tab-content hr {
     width: 30px;
 }
-
+.bg-laravel{
+    background-color: rgb(192, 95, 95);
+}
+.bg-php{
+    background-color: rgb(105, 206, 221);
+}
+.bg-python{
+    background-color: rgb(87, 85, 95);
+}
 
 /*** Service ***/
 .service-item .bg-icon {
