@@ -6,6 +6,10 @@
     --dark: #12141D;
     --see:grey;
 }
+body {
+    background-image: url("img/sfondo.jpg");
+    background-size: cover; 
+}
 
 .back-to-top {
     position: fixed;
@@ -226,43 +230,12 @@
     padding-bottom: 30px !important;
 }
 
-
-/*** Team ***/
-.team-item img {
-    transition: .5s;
-}
-
-.team-item:hover img {
-    opacity: .7;
-}
-
-.team-item .team-text {
-    position: absolute;
-    left: 0;
-    right: 60px;
-    bottom: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    opacity: 0;
-    transition: .5s;
-}
-
-.team-item:hover .team-text {
-    right: 30px;
-    opacity: 1;
-}
-
-.team-item .team-text div {
-    transition: .5s;
-}
-
-.team-item:hover .team-text div {
-    margin-left: 30px;
-}
-
-
 .no-wrap {
     white-space: pre-line; /* Mantieni gli a capo ma ignora gli spazi multipli */
   
+}
+
+.fixed-size-img {
+    width: 400px; 
+    height: 300px; 
 }
