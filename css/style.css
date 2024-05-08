@@ -6,10 +6,6 @@
     --dark: #12141D;
     --see:grey;
 }
-body {
-    background-image: url("img/sfondo.jpg");
-    background-size: cover; 
-}
 
 .back-to-top {
     position: fixed;
@@ -66,11 +62,6 @@ body {
     height: 32px;
 }
 
-.btn-lg-square {
-    width: 48px;
-    height: 48px;
-}
-
 .btn-square,
 .btn-sm-square,
 .btn-lg-square {
@@ -81,6 +72,11 @@ body {
     font-weight: normal;
 }
 
+.btn-sm-square {
+    padding: 0.25rem 0.5rem; 
+    font-size: 0.875rem; 
+    border: 0.1px solid rgb(98, 68, 198);
+}
 
 /*** Navbar ***/
 .navbar.fixed-top {
@@ -230,9 +226,15 @@ body {
     padding-bottom: 30px !important;
 }
 
+@media (max-width: 767px) {
+    .portfolio-btn p {
+        font-size: 14px; 
+        margin-bottom: 10px; 
+    }
+}
+
 .no-wrap {
-    white-space: pre-line; /* Mantieni gli a capo ma ignora gli spazi multipli */
-  
+    white-space: pre-line; 
 }
 
 .fixed-size-img {
