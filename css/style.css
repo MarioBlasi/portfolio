@@ -184,6 +184,9 @@
     background-size: cover;
 }
 
+/*** CV ***/
+
+
 
 /*** Project Portfolio ***/
 #portfolio-flters li {
@@ -227,10 +230,13 @@
 }
 
 @media (max-width: 767px) {
-    .portfolio-btn p {
-        font-size: 14px; 
-        margin-bottom: 10px; 
+    .portfolio-btn p,
+    .small-text {
+        font-size: 13px; /* Imposta la dimensione del carattere desiderata */
     }
+}
+.small-text {
+    font-size: 13px; /* Imposta la dimensione del carattere desiderata */
 }
 
 .no-wrap {
@@ -241,4 +247,6 @@
     width: 400px; 
     height: 300px; 
 }
+
+
 
