@@ -1,9 +1,0 @@
-Accedi al tuo account GitHub e vai alla pagina del repository che contiene il tuo progetto.
-Nella parte superiore del tuo repository, troverai diverse schede come "Code", "Issues", "Pull requests", ecc. Cerca la scheda "Settings" e cliccaci sopra.
-Nella pagina delle impostazioni del repository, guarda sulla barra laterale sinistra e trova la sezione "Pages". Clicca su di essa.
-Nella sezione "Pages", dovresti vedere le opzioni per selezionare il ramo (branch) da utilizzare per il tuo sito web. Seleziona il ramo che contiene il codice del tuo sito web (solitamente è il ramo "main" o "master").
-Dopo aver selezionato il ramo, fai clic su "Save" o su un pulsante simile per salvare le modifiche.
-GitHub Pages creerà ora un sito web pubblico utilizzando il tuo codice. Una volta completata la pubblicazione, troverai un link nella sezione "Pages" delle impostazioni del repository. Questo link sarà qualcosa del genere: "https://tuonomeutente.github.io/tuoprogetto/".
-Copia questo link e invialo al tuo collega tramite email, messaggio istantaneo o qualsiasi altra piattaforma di comunicazione che preferisci.
-
-La repo deve essere pbblica non privata.
