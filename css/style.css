@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #18bf7c;
+    --primary: rgb(98, 68, 198);
     --secondary: #1c12ac;
     --light: #FAFAFB;
     --dark: #12141D;
@@ -184,10 +184,6 @@
     background-size: cover;
 }
 
-/*** CV ***/
-
-
-
 /*** Project Portfolio ***/
 #portfolio-flters li {
     display: inline-block;
@@ -232,11 +228,11 @@
 @media (max-width: 767px) {
     .portfolio-btn p,
     .small-text {
-        font-size: 13px; /* Imposta la dimensione del carattere desiderata */
+        font-size: 13px; 
     }
 }
 .small-text {
-    font-size: 13px; /* Imposta la dimensione del carattere desiderata */
+    font-size: 13px; /* dimensione del carattere*/
 }
 
 .no-wrap {
@@ -249,4 +245,5 @@
 }
 
 
+/** butto**/
 
