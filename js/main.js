@@ -112,4 +112,9 @@
         });
     });
 
+     // audio controls
+    document.addEventListener("DOMContentLoaded", function() {
+        var audio = document.getElementById("audioPlayer");
+        audio.volume = 0.5; // vol 50%
+    });
       

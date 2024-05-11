@@ -79,6 +79,7 @@
 }
 
 /*** Navbar ***/
+
 .navbar.fixed-top {
     display: none;
     transition: .5s;
@@ -90,7 +91,23 @@
     font-size: 18px;
     font-weight: 600;
     outline: none;
+    transition: transform 0.3s ease; /*  shadow effect */
 }
+  
+.navbar .navbar-nav .nav-link:hover {
+    transform: translateY(-3px); /* shadow effect 3D - up */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* effect mouse */
+}
+  
+
+.navbar .navbar-nav .nav-link:hover {
+    transform: translateY(-3px); /* shadow effect - up */
+}
+  
+.navbar .navbar-nav .nav-link:active {
+    transform: translateY(3px); /* shadow effect - down */
+}
+  
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
@@ -102,7 +119,19 @@
         padding: 10px 0;
     }
 }
+/** nav experience education **/ 
 
+.nav-pills .nav-link {
+    font-size: 18px;
+    font-weight: 600;
+    outline: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .nav-pills .nav-link:hover {
+    transform: translateY(-17px); /* Effetto di sollevamento maggiore al passaggio del mouse */
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3); /* Ombra più evidente */
+  }
 
 /*** Header ***/
 #home {
@@ -245,5 +274,17 @@
 }
 
 
-/** audio controls **/
+  
+/** audio **/
 
+#audioPlayer {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Effetto ombra */
+    border-radius: 10px; /* Bordi arrotondati */
+    padding: 10px; /* Spaziatura interna */
+    transition: box-shadow 0.3s ease; /* Transizione per l'effetto ombra */
+  }
+  
+  #audioPlayer:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Effetto ombra aumentato al passaggio del mouse */
+  }
+  
