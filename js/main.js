@@ -115,6 +115,6 @@
      // audio controls
     document.addEventListener("DOMContentLoaded", function() {
         var audio = document.getElementById("audioPlayer");
-        audio.volume = 0.5; // vol 50%
+        audio.volume = 0.3; // vol 30%
     });
       
