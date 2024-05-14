@@ -136,7 +136,7 @@
 /*** Header ***/
 #home {
     margin-bottom: 6rem;
-    background: url(./img/bg1.png) left top no-repeat;
+    background: url(/img/bg1.png) left top no-repeat;
    
 }
 
@@ -262,7 +262,7 @@
     }
 }
 .small-text {
-    font-size: 13px; /* dimensione del carattere*/
+    font-size: 12px; /* dimensione del carattere*/
 }
 
 .no-wrap {
