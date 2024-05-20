@@ -276,18 +276,39 @@
 
 /** photo **/
 
+
+
 .photo {
-    border-radius: 50%; /* Per rendere l'immagine circolare */
-    width: 50%; /* Adatta la larghezza in base al dispositivo */
-    height: auto; /* Imposta l'altezza automaticamente per mantenere l'aspect ratio */
+    border-radius: 50%; 
+    width: 50%; 
+    height: auto;
     border: 5px solid #fff;
-    box-shadow: 5px 5px 0px 0px #6244C6, 10px 10px 0px 0px #785ECC, 15px 15px 0px 0px #8E78D2, 20px 20px 0px 0px #A492D8, 25px 25px 0px 0px #BAACDE, 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 
+        0 0 10px #6244C6,
+        0 0 20px #785ECC,
+        0 0 30px #8E78D2,
+        0 0 40px #A492D8,
+        0 0 50px #BAACDE,
+        0 0 60px #D0C6E4,
+        0 0 70px #E6E0EA; 
     display: block;
     margin-left: auto;
     margin-right: auto;
-    transition: transform 1s ease; /* Aggiunge una transizione per l'effetto hover */
+    animation: waves 2s linear infinite; 
+    transition: transform 1s ease; 
 }
 
+@keyframes waves {
+    0% {
+        transform: translateY(0); 
+    }
+    50% {
+        transform: translateY(-30px); 
+    }
+    100% {
+        transform: translateY(0); 
+    }
+}
 @keyframes rotate360 {
     from {
         transform: rotate(0deg);
