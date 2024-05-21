@@ -121,17 +121,4 @@
      // photo controls
       
     
-    document.addEventListener('DOMContentLoaded', () => {
-        const photo = document.querySelector('.photo');
-
-        photo.addEventListener('mouseover', () => {
-            photo.style.animation = 'rotate360 1s forwards';
-        });
-
-        photo.addEventListener('mouseout', () => {
-            setTimeout(() => {
-                photo.style.animation = '';
-                photo.style.transform = 'rotate(0deg)';
-            }, 1000); 
-        });
-    });
+ 
