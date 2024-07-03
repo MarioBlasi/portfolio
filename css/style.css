@@ -172,7 +172,7 @@
 
 /*** Skills ***/
 #skill .progress {
-    height: 5px;
+    height: 8px;
     border-radius: 5px;
 }
 
@@ -192,6 +192,9 @@
 
 #skill .tab-content hr {
     width: 30px;
+}
+.bg-react{
+    background-color: rgb(40, 13, 147);
 }
 .bg-laravel{
     background-color: rgb(192, 95, 95);
